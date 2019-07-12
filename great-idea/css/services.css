@@ -63,81 +63,70 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* end Reset */
 
 .wrapper{
-	width: 900px;
-	margin: 0 auto;
+    width: 900px;
+    margin: 0 auto;
 }
 
 nav{
 	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
 a{
 	text-decoration: none;
 	font-size: 13px;
-	color: gray;
+    color: gray;
 }
 
-.heading{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 40px;
-}
-
-h1{
-	display: inline-block;
-	font-size: 60px;
-	text-align: center;
-}
-
-.innerHead{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.row1{
+    margin-top: 40px;
 }
 
 hr{
-	margin-top: 50px;
-	margin-bottom: 50px;
+    margin-top: 40px;
 }
 
-.topRow{
-	display: flex;
-	justify-content: space-around;
-	margin-top: 45px;
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
-.topCol{
-	width: 45%;
+.col2{
+    width: 48%;
+    border: 1px solid black;
+    padding: 20px;
 }
 
-
-.getStarted{
-	border: 1px solid black;
-	padding: 3px 10px 3px 10px;
+.learnMore{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
-.middle-img{
-	padding-top: 45px;
-	padding-bottom: 45px;
+.col3{
+    width: 48%;
 }
 
-.botRow{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-top: 10px;
 }
 
-.botCol{
-	width: 32%;
+li{
+    padding-top: 20px;
 }
 
 footer{
-	margin-top: 40px;
+	margin-top: 60px;
 	text-align: center;
 }
