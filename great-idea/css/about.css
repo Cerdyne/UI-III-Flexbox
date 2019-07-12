@@ -87,6 +87,10 @@ a{
     margin-top: 40px;
 }
 
+.services-header-img{
+    border-radius: 20px;
+}
+
 hr{
     margin-top: 40px;
 }
@@ -129,10 +133,6 @@ li{
 footer{
 	margin-top: 60px;
 	text-align: center;
-}
-
-.services-header-img{
-    border-radius: 20px;
 }
 
 a:hover{
